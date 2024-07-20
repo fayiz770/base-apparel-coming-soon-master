@@ -28,12 +28,21 @@
         Hello fellow shopers! We're currently building our new fashion store. 
         Add your email bellow to stay up-to-date with announcements and our launch deals.
       </p>
-      <div class="input-container">
+      <div class="input-container" id="input-container">
         <input class="input" type="email" name="email" id="email" placeholder="Email Address">
+        <img class="error" id="error" src="images/icon-error.svg" alt="icon-error">
         <div class="arrow" id="arrow">
           <img src="images/icon-arrow.svg" alt="icon-arrow">
         </div>
       </div>
+      <div class="error-text" id="error-text">
+        <p>Please provide a valid email!</p>
+      </div>
+      <div class="success" id="success">
+        <p>We'll return you as soon as posible!</p>
+        <p>Thank you for subscribing</p>
+      </div>
     </article>
+    <script src="index.js"></script>
 </body>
 </html>
